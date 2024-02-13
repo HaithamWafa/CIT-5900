@@ -313,6 +313,6 @@ def main():
               print("Final Computer's Tank Level:", computer_tank)
               break
             else:
-              current_player = "human"
+              current_player = "human" #alternating turns
 if __name__ == '__main__':
     main()
